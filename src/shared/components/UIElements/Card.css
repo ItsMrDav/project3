@@ -4,5 +4,7 @@
   border-radius: 6px;
   padding: 1rem;
   overflow: hidden;
+  border: solid 1px white;
   background: white;
+  background-image: url('https://img.freepik.com/free-photo/beautiful-tropical-beach-sea_74190-6796.jpg?w=2000');
 }

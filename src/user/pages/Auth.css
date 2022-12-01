@@ -1,3 +1,6 @@
+
+
+
 .authentication__header {
   color: white;
   text-align: center;
@@ -8,8 +11,10 @@
   max-width: 25rem;
   margin: 7rem auto;
   text-align: center;
+  background-image: url('https://img.freepik.com/free-photo/beautiful-tropical-beach-sea_74190-6796.jpg?w=2000');
 }
 
 .authentication form {
   margin-bottom: 1rem;
 }
+
