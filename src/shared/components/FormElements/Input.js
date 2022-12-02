@@ -29,7 +29,7 @@ const Input = (props) => {
     isValid: props.initialValid || false,
   });
 
-  const { id, onInput } = props;
+  const { id, onInput, validators = [] } = props;
   const { value, isValid } = inputState;
 
   useEffect(() => {
@@ -40,7 +40,7 @@ const Input = (props) => {
     dispatch({
       type: "CHANGE",
       val: event.target.value,
-      validators: props.validators,
+      validators,
     });
   };
 

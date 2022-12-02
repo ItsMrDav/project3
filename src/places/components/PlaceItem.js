@@ -15,6 +15,7 @@ const PlaceItem = (props) => {
   const auth = useContext(AuthContext);
   const [showMap, setShowMap] = useState(false);
   const [showConfirmModal, setShowConfirmModal] = useState(false);
+  console.log("the props", props);
 
   const openMapHandler = () => setShowMap(true);
 
@@ -106,6 +107,9 @@ const PlaceItem = (props) => {
                 DELETE
               </Button>
             )}
+            {/* -----------COMMENT EDITION---------------- */}
+            <Button to={`/places/${props.id}/comments`}>COMMENT</Button>
+            {/* ======================================== */}
           </div>
         </Card>
       </li>
