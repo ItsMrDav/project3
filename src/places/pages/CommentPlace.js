@@ -69,10 +69,10 @@ const CommentPlace = () => {
 
   return (
     <>
-      <h2>What Is Your Comment?</h2>
+      <h2 className="center">What Is Your Comment?</h2>
       <ErrorModal error={error} onClear={clearError} />
 
-      <form onSubmit={commentPlaceSubmitHandler}>
+      <form className="place-form" onSubmit={commentPlaceSubmitHandler}>
         <Input
           id="title"
           element="input"
